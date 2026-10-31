@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Pricing from "./components/Pricing";
+import CallToAction from "./components/CallToAction";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Skills />
         <Projects />
         <Pricing />
+        <CallToAction />
       </main>
     </>
   );
