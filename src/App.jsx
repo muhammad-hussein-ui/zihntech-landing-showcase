@@ -4,6 +4,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Pricing from "./components/Pricing";
 import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Pricing />
         <CallToAction />
       </main>
+      <Footer />
     </>
   );
 }
