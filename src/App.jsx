@@ -1,7 +1,11 @@
-import Button from "./components/Button";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <Button label="View my work" href="#projects" />;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
