@@ -4,7 +4,7 @@ This is my first React project: a one-page portfolio built from 11 small compone
 
 ## Live site
 
-(Add your deployed link here once it is live.)
+(https://zihntech-landing-showcase.vercel.app)
 
 ## Run it
 
