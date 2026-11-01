@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
-    <section id="projects" className="bg-slate-50 px-6 py-20">
+    <section id="projects" className="scroll-mt-20 bg-slate-50 px-6 py-20">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-center text-3xl font-bold text-slate-900">
           Projects I have built

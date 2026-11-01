@@ -2,7 +2,7 @@ import PricingCard from "./PricingCard";
 
 function Pricing() {
   return (
-    <section id="services" className="px-6 py-20">
+    <section id="services" className="scroll-mt-20 px-6 py-20">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-center text-3xl font-bold text-slate-900">
           Sample service packages

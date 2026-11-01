@@ -2,7 +2,10 @@ import Button from "./Button";
 
 function CallToAction() {
   return (
-    <section id="contact" className="bg-emerald-50 px-6 py-20 text-center">
+    <section
+      id="contact"
+      className="scroll-mt-20 bg-emerald-50 px-6 py-20 text-center"
+    >
       <div className="mx-auto max-w-2xl">
         <h2 className="text-3xl font-bold text-slate-900">
           Have a page in mind?
