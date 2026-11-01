@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main id="main">
         <Hero />
         <Skills />
         <Projects />
