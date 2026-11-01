@@ -4,7 +4,7 @@ function Button({ label, href }) {
   return (
     <a
       href={href}
-      className="inline-block rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white hover:bg-emerald-700"
+      className="inline-block rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white hover:bg-emerald-700 focus-visible:ring-2 focus-visible:ring-emerald-600 focus-visible:ring-offset-2"
     >
       {label}
     </a>
