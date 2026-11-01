@@ -1,16 +1,68 @@
-# React + Vite
+# Zihntech Landing Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first React project: a one-page portfolio built from 11 small components and styled with Tailwind only. It shows what I am learning at Zihntech Academy, the projects I have built so far, and where to find my code.
 
-Currently, two official plugins are available:
+## Live site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+(Add your deployed link here once it is live.)
 
-## React Compiler
+## Run it
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Needs Node.js.
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/muhammad-hussein-ui/zihntech-landing-showcase.git
+cd zihntech-landing-showcase
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Then open the address shown in the terminal, usually http://localhost:5173.
+
+## Built with
+
+React, Vite and Tailwind CSS v4.
+
+## Components
+
+| Component    | What it does                                                | Where it is used                            |
+| ------------ | ----------------------------------------------------------- | ------------------------------------------- |
+| App          | Assembles the page from the components below                | main.jsx                                    |
+| Navbar       | Brand name and navigation links                             | App                                         |
+| Hero         | Headline, short introduction and two buttons                | App                                         |
+| Button       | A link styled as a button; takes `label` and `href` props   | Hero (2), PricingCard (3), CallToAction (1) |
+| Skills       | Section holding three skill cards                           | App                                         |
+| SkillCard    | One skill; takes `title` and `text` props                   | Skills (3)                                  |
+| Projects     | Section holding three project cards                         | App                                         |
+| ProjectCard  | One project; takes `title`, `description` and `tools` props | Projects (3)                                |
+| Pricing      | Section holding three sample service packages               | App                                         |
+| PricingCard  | One package; takes `name`, `price` and `summary` props      | Pricing (3)                                 |
+| CallToAction | Closing section with a link to GitHub                       | App                                         |
+| Footer       | Copyright line with the current year                        | App                                         |
+
+## Folder structure
+
+```
+src/
+├── main.jsx
+├── App.jsx
+├── index.css          (only @import "tailwindcss";)
+└── components/
+    ├── Navbar.jsx
+    ├── Hero.jsx
+    ├── Button.jsx
+    ├── Skills.jsx
+    ├── SkillCard.jsx
+    ├── Projects.jsx
+    ├── ProjectCard.jsx
+    ├── Pricing.jsx
+    ├── PricingCard.jsx
+    ├── CallToAction.jsx
+    └── Footer.jsx
+```
+
+## Notes
+
+- The prices in the Pricing section are placeholders written for this assignment.
+- The project cards use colour blocks where screenshots could go.
+- Four components take props, which was the optional challenge in the assignment brief.
